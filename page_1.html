@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>La lutte contre le terrorisme dans l'UE</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+<header>
+<nav id="exemple2">
+  <ul>
+    <li><a href="index.html">Accueil</a></li>
+
+    <li><a href="page_1.html">I.</a>
+      <ul>
+        <li><a href="#">Origines</a></li>
+        <li><a href="#">Évolution</a></li>
+        <li><a href="#">Dates clés</a></li>
+      </ul>
+    </li>
+
+    <li><a href="page_2.html">II.</a>
+      <ul>
+        <li><a href="#">Règles de base</a></li>
+        <li><a href="#">Fautes fréquentes</a></li>
+      </ul>
+    </li>
+
+    <li><a href="page_3.html">III.</a>
+      <ul>
+        <li><a href="#">Raquettes</a></li>
+        <li><a href="#">Ballons</a></li>
+        <li><a href="#">Marques connues</a></li>
+      </ul>
+    </li>
+
+    <li><a href="page_4.html">Conclusion</a>
+      <ul>
+        <li><a href="#">Conclusion</a></li>
+        <li><a href="Sources.html">Sources</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+ </header>
+
+<section class="hero">
+    <h1>La lutte contre le terrorisme dans l'UE</h1>
+  </section>
+
+<!-- SECTION H2 -->
+  <h2 class="intro-title">Introduction</h2>
+<div class="cadre">
+  
+  <p>Le badminton est un <strong>sport de raquette</strong> qui se joue en salle. Il est souvent pratiqué en tant que sport de loisir, mais il est également un sport compétitif populaire au niveau amateur et professionnel.
+Le jeu se déroule sur un terrain rectangulaire, divisé en deux moitiés par un filet. Les joueurs ou les équipes se font face de part et d'autre du filet. L'objectif principal du jeu est de frapper un <strong>volant</strong>, également appelé "shuttlecock", avec une <strong>raquette</strong> pour le faire passer par-dessus le filet et le faire atterrir dans le demi-terrain adverse.
+Le badminton peut être joué en <strong>simple</strong> (un joueur contre un joueur), en <strong>double</strong> (deux joueurs contre deux joueurs) ou en <strong>double mixte</strong> (une équipe composée d'un homme et d'une femme contre une autre équipe similaire).
+<p>Cliquez <a href="https://www.ffbad.org/"> ici </a> pour vous rendre sur le site de la fédération française de badminton.</p>
+</div>
+<script>
+    // ajoute la classe "scrolled" quand on dépasse le H1
+    window.addEventListener("scroll", function() {
+      const heroHeight = document.querySelector(".hero").offsetHeight;
+      if (window.scrollY > heroHeight / 3) {
+        document.body.classList.add("scrolled");
+      } else {
+        document.body.classList.remove("scrolled");
+      }
+    });
+  </script>
+
+ <img src="images/badminton.jpg"/>
+<footer>
+  <p>Le badminton. Découvrez en plus sur le site de <a href="https://bwfbadminton.com/">Féderation mondiale du badminton</a>.<img src="images/logos/logo_bwf.png" height="90" width="160"></p>
+</footer>
+</body>
+
+</html>
